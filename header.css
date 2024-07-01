@@ -34,4 +34,9 @@ display: block;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.menu-lista{
+    display: none;
+    position: absolute;
+    width: 60vw;
+}
 
