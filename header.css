@@ -3,9 +3,9 @@ body{
 }
 
 .cabecalho{
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
+    display: flex; 
+    justify-content: space-between; 
+    background-color: white; 
     align-items: center;
 }
 .container{
@@ -28,15 +28,22 @@ padding: 0.5em;
 .menu-checkbox:checked ~ .menu-lista{
 display: block;
 }
-.lista-item{
-    padding: 1em;
-    background-color: white;
+.lista-titulo{
+    color: var(--branco);
+ }
+.lista-titulo,
+.lista-item {
+  padding: 1em;
+  background-color: var(--branco);
+  
+}
+
+
+
+.menu-lista{
+    position: absolute;
+    width: 60vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.menu-lista{
-    display: none;
-    position: absolute;
-    width: 60vw;
-}
 
