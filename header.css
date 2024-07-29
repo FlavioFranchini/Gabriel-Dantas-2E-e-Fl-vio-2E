@@ -1,11 +1,11 @@
 body{
-    background-color: #ebecee;
+    background-color: var(--cor-de-fundo);
 }
 
 .cabecalho{
-    display: flex; 
-    justify-content: space-between; 
-    background-color: white; 
+display: flex;
+ justify-content: space-between; 
+    background-color: var(--branco) ;
     align-items: center;
 }
 .container{
@@ -22,28 +22,24 @@ padding: 0.5em;
  background-repeat: no-repeat;
 
 }
-.menu-lista{
-    display: none;
-}
 .menu-checkbox:checked ~ .menu-lista{
 display: block;
 }
 .lista-titulo{
-    color: var(--branco);
+    background-color: var(--branco);
+    color: var(--laranja);
  }
-.lista-titulo,
-.lista-item {
-  padding: 1em;
-  background-color: var(--branco);
-  
-}
-
-
-
-.menu-lista{
+ .menu-lista{
+    display: none;
     position: absolute;
     width: 60vw;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.lista-item{
+    padding: 1em;
+    background-color: white;
+    color: orange;
+}
+
+
 
 
