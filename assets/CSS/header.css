@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(97.56deg, pink 35.49%, #326589 165.37%);
+}
+.cabeca{
+    display: flex;
+    justify-content:space-between;
+ background-color: white;
+    align-items:center;
+}
+.conteiner{
+    margin: 0px 20px;
+    padding: 0.5em;
+}
+.menuzin{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url(../IMG/AluraBooks/Menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.listinha{
+    display: none;
+    position:absolute;
+    width:120vw;
+}
+.menu-checkbox{
+    display: none;
+}
+.menu-checkbox:checked ~ .listinha{
+display: block;
+}
+
+.listinha-item{
+    padding: 1em;
+ background-color: var(--branco);
+    font-size: large;
+}
+
+.titulo-lista{
+    background-color: var(--branco);
+    color: var(--laranja);
+    font-size: 27px;
+    font-weight: bold;
+}
+
+
