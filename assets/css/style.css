@@ -1,9 +1,14 @@
-@import url(/assets/css/header.css);
-@import url(/assets/css/banner.css);
-@import url(/assets/css/carrosel.css);
-:root{
-    --cor-de-fundo: #ebecee;
---branco: #FFFFFF;
---laranja: #eb9b00;
---azul: linear-gradient(97.56deg, #002f52 35.49%, #326589 165.37%);
+@import url(header.css);
+@import url(banner.css);
+@import url(carrossel.css);
+:root {
+    --cor-de-fundo:#EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #eb9b00;
+    --azul-degrade: linear-gradient(97.56deg, #002f52 35.49%, #326589 165.37%);
+    --azul: #002f52;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
 }
